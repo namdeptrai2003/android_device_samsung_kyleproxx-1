@@ -24,10 +24,6 @@ TARGET_BOOTLOADER_BOARD_NAME                := hawaii
  BOARD_USES_ALSA_AUDIO := true
  BOARD_USES_GENERIC_AUDIO := true
  
-# Lights
-PRODUCT_PACKAGES += \
-    lights.kyleproxx
- 
 # Assert
 TARGET_OTA_ASSERT_DEVICE                    := kyleprods,kylepro,S7582,S7580,GT-S7582,GT-S7580,hawaii
 
